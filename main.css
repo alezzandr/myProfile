@@ -8,6 +8,7 @@ h1 {
     font-family: Courier New, Courier, monospace;
     font-size: 3em;
     text-align: center;
+    font-weight: bolder;
     
 }
 
@@ -18,10 +19,107 @@ img {
 
 p { 
     font-family: Courier New, Courier, monospace;
-    font-size: 1.2em;
-    width: 300px;
+    font-size: 1.5em;
+    width: 800px;
     position: absolute; 
-    top: 100px; 
+    top: 150px; 
     left: 450px; 
-    width: 100%; 
+    text-indent: 0px;
+    font-style: oblique;
+
+     
 }
+
+
+
+
+p2 {
+    font-size: 1.1em;
+    position: absolute; 
+    top: 480px; 
+    left: 5px; 
+    width: 100%; 
+    font-family: Courier New, Courier, monospace;
+    font-weight: 600;
+
+
+}
+
+.button1 {
+    background-color:white;/* Green */
+    font-size: 30px;
+    font-family: Courier New, Courier, monospace;
+    position: absolute; 
+    top: 600px; 
+    left: 250px; 
+    width: 200px; 
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+    border: solid 3px black;
+    
+    
+}
+.button1:hover {
+    background: gray;
+    border: solid 5px #fff;
+  }
+
+.button2 {
+    background-color: white;/* Green */
+    font-size: 30px;
+    font-family: Courier New, Courier, monospace;
+    position: absolute; 
+    top: 600px; 
+    left: 460px; 
+    width: 200px; 
+    font-weight: bolder;
+    text-align:center;
+    cursor: pointer;
+    border: solid 3px black;
+}
+
+.button2:hover {
+    background: gray;
+    border: solid 2px #fff;
+}
+
+.button3 {
+    background-color: white;/* Green */
+    font-size: 30px;
+    font-family: Courier New, Courier, monospace;
+    position: absolute; 
+    top: 600px; 
+    left: 670px; 
+    width: 200px; 
+    font-weight: bold;
+    text-align:center;
+    cursor: pointer;
+    border: solid 3px black;
+}
+
+.button3:hover {
+    background: gray;
+    border: solid 5px #fff;
+}
+
+.button4 {
+    background-color: white;/* Green */
+    font-size: 30px;
+    font-family: Courier New, Courier, monospace;
+    position: absolute; 
+    top: 600px; 
+    left: 880px; 
+    width: 200px; 
+    font-weight: bold;
+    text-align:center;
+    cursor: pointer;
+    border: solid 3px black;
+    
+}
+
+.button4:hover {
+    background: gray;
+    border: solid 5px #fff;
+}
+
